@@ -15,7 +15,6 @@ function App() {
   }
   
   return (
-<<<<<<< HEAD
     <div className="App">
         <h1>React To-Do</h1>
         <button onClick={function() {setShowTodos(!showTodos)}}>{showTodos ? 'HIDE' : 'SHOW'}</button>
@@ -23,12 +22,6 @@ function App() {
         <hr />
         <NewToDoForm addTodo={ addTodo }/>
     </div>
-=======
-      <div className="App">
-          <h1>React To-Do</h1>
-          <ToDoList />
-      </div>
->>>>>>> ed1c3a1faecd41743873e8bd2459013e50e279f3
   );
 }
 
